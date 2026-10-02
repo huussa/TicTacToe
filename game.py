@@ -172,7 +172,7 @@ class TicTacToeApp:
             frame.columnconfigure(column, weight=1, uniform="board")
 
         ttk.Label(frame, text="Tic-Tac-Toe", style="Title.TLabel").grid(row=0, column=0, columnspan=3, pady=(0, 2))
-        ttk.Label(frame, text="Play a friend or train an opponent with Q-Learning", style="Subtitle.TLabel").grid(row=1, column=0, columnspan=3, pady=(0, 22))
+        ttk.Label(frame, text="Play a friend or AI with Q-Learning", style="Subtitle.TLabel").grid(row=1, column=0, columnspan=3, pady=(0, 22))
 
         game_options = ttk.Frame(frame, style="Card.TFrame", padding=(18, 14))
         game_options.grid(row=2, column=0, columnspan=3, sticky="ew", pady=(0, 18))
